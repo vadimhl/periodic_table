@@ -1,7 +1,6 @@
 #!/bin/bash
 
-PSQL="psql --username=freecodecamp --dbname=periodic_table -t --no-align -c"
-PSQL="psql -X -A --dbname=periodic_table -t --no-align -c"
+PSQL="psql -X -A --username=freecodecamp --dbname=periodic_table -t --no-align -c"
 
 ELEMENT_INFO(){
    
