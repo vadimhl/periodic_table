@@ -21,7 +21,7 @@ ELEMENT_INFO(){
 }
 if [[ $1 == "" ]]
 then
-  echo Please provide an element as an argument
+  echo Please provide an element as an argument.
 else
   if [[  $1 =~ ^[0-9]+$ ]]
   then
